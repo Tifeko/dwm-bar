@@ -27,11 +27,11 @@ dwm_spotify () {
             if [ "$STATUS" = "Playing" ]; then
                 STATUS="▶"
             else
-                STATUS="⏸"
+                STATUS=""
             fi
             
             if [ "$SHUFFLE" = "On" ]; then
-                SHUFFLE=" 🔀"
+                SHUFFLE=" "
             else
                 SHUFFLE=""
             fi
